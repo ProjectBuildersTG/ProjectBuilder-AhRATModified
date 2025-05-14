@@ -1,0 +1,108 @@
+PROJECT BUILDER R.A.T. — README  
+Version: 1.0  
+Author: Kenox Inc.  
+Type: Offline Android RAT Panel  
+Based on: Heavily modified version of AhMyth
+
+----------------------------------------
+🔧 OVERVIEW
+----------------------------------------
+
+PROJECT BUILDER is a modernized Remote Access Tool for Android  
+designed with a new dark UI, custom branding, and functional builder  
+panel. It allows you to build and manage connections from infected APKs  
+for ethical penetration testing and awareness simulation.
+
+> ⚠️ THIS TOOL IS FOR EDUCATIONAL & ETHICAL USE ONLY
+
+----------------------------------------
+📦 WHAT’S INCLUDED
+----------------------------------------
+
+- APK Payload Builder (stable up to Android 12)
+- Device Monitor Panel with dark theme
+- MongoDB-based backend (fully local)
+- Logging interface
+- Lightweight EXE version of the panel
+- Full rebrand to “PROJECT BUILDER” by Kenox Inc.
+- README.txt + LICENSE.txt for distribution
+
+----------------------------------------
+⚠️ CRITICAL USAGE NOTES & LIMITATIONS
+----------------------------------------
+
+🚫 DOES NOT SUPPORT MODERN TUNNELING PLATFORMS  
+- You **must use your own local IP (IPv4)**  
+- Tools like `playit.gg`, `Ngrok`, and `localhost.run` **do not work reliably**  
+  with this RAT unless modified — due to SSL & tunneling conflicts
+
+💡 HOW TO GET YOUR IP:
+Open CMD and run:
+    ipconfig
+
+Copy your **IPv4 Address** (e.g. 192.168.1.5)  
+Use this in the builder instead of 127.0.0.1 or external links.
+
+---
+
+📵 DOES NOT WORK ON ANDROID 13 & 14 FULLY  
+- APK may install on Android 12  
+- **Permissions must be granted manually** by user (camera, mic, location)
+- On Android 13+ or 14, many features **will break** without proper patching
+- Tested working on Android 9 to 12
+
+---
+
+🔐 APK SIZE MAY LOOK SMALL (~294 KB)  
+- The payload is minimal but functional  
+- Logs, connection info, and build logic are still active  
+- Confirm `.apk` has `classes.dex` inside by renaming to `.zip`
+
+---
+
+💡 FIREWALL & NETWORK ISSUES:
+- Your firewall or antivirus may block port 1337  
+- Open the required port manually via Windows Firewall settings
+- Run MongoDB with:
+    mongod
+- Then start PROJECT BUILDER panel (EXE or `npm start`)
+
+---
+
+🗃 WHERE IS THE BUILT APK?
+- After clicking **Build** in the APK tab  
+  → Your `.apk` will be saved in:
+    `C:\Users\<yourname>\AhMyth\Output\ProjectBuilder-aligned.apk`
+
+---
+
+⚠️ NOTE ON FUNCTIONALITY:
+- This builder is UI-optimized but still built on AhMyth’s original engine
+- All logic is preserved — but newer Android versions require deep patching
+- This is not a full spyware, but a PoC (Proof of Concept RAT) for local testing
+
+---
+
+----------------------------------------
+📘 LEGAL & LICENSE
+----------------------------------------
+
+This software is provided for:
+- Ethical cybersecurity research
+- Red team simulation and training
+- Demonstration of mobile RAT behavior in secure environments
+
+Any misuse, unauthorized deployment, or illegal targeting is strictly prohibited.  
+See LICENSE.txt for full terms.
+
+----------------------------------------
+📞 SUPPORT / CONTACT
+----------------------------------------
+
+Kenox Inc.  
+Web: https://kenoxsecurity.dev  
+Email: support@kenoxinc.org  
+Telegram: @kenoxlabs  
+GitHub: https://github.com/kenoxlabs (Coming Soon)
+
+----------------------------------------

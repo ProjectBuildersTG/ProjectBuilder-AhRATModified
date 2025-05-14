@@ -1,0 +1,46 @@
+PROJECT BUILDER R.A.T. — Version 1.0  
+Copyright (c) 2025 Kenox Inc.  
+All rights reserved.
+
+This software, PROJECT BUILDER (hereafter referred to as "the Software"), is developed and maintained by Kenox Inc.
+
+----------------------------------------
+LICENSE TERMS
+----------------------------------------
+
+1. USAGE
+You are granted a non-exclusive, non-transferable, limited license to use this Software strictly for:
+- Educational and ethical cybersecurity research,
+- Penetration testing within authorized environments,
+- Demonstrating security awareness.
+
+Unauthorized deployment of this Software on devices or networks without explicit consent is strictly prohibited.
+
+2. RESTRICTIONS
+- You may not sell, sublicense, or distribute this Software for any commercial purpose without written permission.
+- You may not use this Software for surveillance, harassment, data theft, or unauthorized access.
+- You may not reverse engineer, tamper with, or remove the branding of Kenox Inc. without permission.
+
+3. LIABILITY
+Kenox Inc. and its contributors shall not be held liable for any damage, data loss, device compromise, or legal consequences resulting from misuse of this Software.
+
+4. TERMINATION
+Violation of any of these terms will result in automatic termination of this license, and may subject the violator to legal action.
+
+----------------------------------------
+DISCLAIMER
+----------------------------------------
+
+This Software is provided "AS IS", without warranty of any kind, express or implied.  
+Use at your own risk.
+
+Kenox Inc. does not condone or support illegal hacking activities. This tool is intended only for educational demonstration and ethical penetration testing purposes.
+
+----------------------------------------
+CONTACT
+----------------------------------------
+
+Kenox Inc.  
+Website: https://kenoxsecurity.dev  
+Email: support@kenoxinc.org  
+License Issued: 2025  
